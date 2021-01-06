@@ -1,0 +1,158 @@
+li{
+
+    list-style: none;
+    transition: all 0.5s;
+}
+li:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+.main-container{
+    width: 10vw;
+    height: 10vh;
+}
+.ul-first{
+
+    position: fixed;    
+     right: 4em;
+    }
+.ul-first li{
+    margin-left: 1.5em;
+}
+body{
+
+    font-family: 'Poppins', sans-serif;
+    text-justify: auto;
+}
+h1{
+    font-size: 50px
+}
+.name-highlight-orange{
+    color: orange;
+
+}
+.half-width{
+width: 40%;
+float: left;
+margin-left: 5%;
+padding-left: 2%;
+
+}
+.half-width img{
+
+    width: 100%;
+    
+}
+section{
+
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, lightsalmon, tomato) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+.name-highlight-blue{
+    
+        color: navy;
+        font-weight: 700;
+ }
+ h2.lastet-working-project{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-position: center;
+ }
+ section{
+
+    margin-top: 5%;
+    height: 400px;
+    padding-bottom: 300px;
+}
+.single-experiance{
+
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experiance-area{
+
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.business-diversity{
+  
+    width:20%; 
+    text-align: justify; 
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.business-diversity-left{
+    background:white;
+    width:25%;
+    float:left;
+    border-radius: 5px 5px 5px 5px ;
+    height: 300px;
+  margin-left: 5%;
+
+    
+  }
+  
+  .business-diversity-center{
+     background:white;
+     width:25%;
+     float:left;
+     border-radius: 5px;
+     margin: 2%;
+
+  }
+  
+  .business-diversity-right{
+     background:white;
+     width:25%;
+     float:left;
+     border-radius: 5px;
+     margin: 2%;
+
+  }
+
+  .business-diversity-left img{
+      width: 100%;
+  }
+  .business-diversity-center img{
+    width: 100%;
+}
+.business-diversity-right img{
+    width: 100%;
+}
+#stay-connected{
+
+    text-align: center;
+    border: 0;
+   
+
+}
+footer{
+
+    text-align: center;
+    font-size: 12px;
+  }
+
+#about{
+    background-image: linear-gradient( 45deg, black, navy) ;
+    font-weight: 700;
+    font-size: 20;
+}
